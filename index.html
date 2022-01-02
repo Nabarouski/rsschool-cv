@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;500&display=swap" rel="stylesheet">
+<title>CV html</title>
+	<link rel="stylesheet" href="style.css" />
+<style>
+	/*.page {position: relative;
+			margin-left: 5%;
+		    margin-right: 5%;
+			}
+	.header {font-family:'Spline Sans bold';
+			 font-size: 36px;
+			 text-align: center;
+			 color: black;
+			 background-color:#2D844A;
+			 border:solid 5px #CABE3A;
+			}
+	.main {font-family:'Spline Sans bold';
+		   font-size: 36px;
+		   text-align: left;
+		    color: black;
+			background-color: #ffffff;
+			border:solid 3px #CABE3A;
+			padding: 20px;}
+	
+	.pic {border: solid 1px #CABE3A;
+		  width: 400px; height: 300px;}
+	
+	.list1 {font-size: 28px}
+	.list2 {font-size:24px}
+	
+	.logo {position: relative;
+		   float: right;
+		   height: 300px;
+		   width: 300px;
+		   
+		}
+	
+	.link {cursor:pointer;
+		   text-decoration: none;
+		   color: black}
+	.link:hover {color: yellow;
+				border: solid 1px black;
+				background-color: black}*/
+	
+	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		
+		.header {font-size: 24px;
+				}
+		.main {position: relative;
+			   font-size: 18px;
+			   padding: 5px;
+				}
+		.pic {position: relative;
+			  text-align: center;
+			  width: 150px;
+			  height: 110px;}
+		.logo { position: relative;
+		   		text-align: center;
+		   		height: 100px;
+				width: 100px;}
+		.list1 {position: relative;
+				font-size: 18px}
+		.list2 {position: relative;
+				font-size: 12px}
+	}
+	@media only screen and (min-width: 481px) and (max-width: 768px) {
+		.header {font-size: 26px;}
+		.main {position: relative;
+			   font-size: 20px;
+				padding: 10px;}
+		.pic {position: relative;
+			  text-align: center;
+			  width: 210px;
+			  height: 150px;}
+		.logo { position: relative;
+		   		text-align: center;
+		   		height: 150px;
+				width: 150px;}
+		.list1 {position: relative;
+				font-size: 18px}
+		.list2 {position: relative;
+				font-size: 14px}
+	}
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		.header {font-size: 28px;}
+		.main {position: relative;
+			   font-size: 24px;
+				padding: 15px;}
+		.pic {position: relative;
+			  text-align: center;
+			  width: 280px;
+			  height: 210px;}
+		.logo { position: relative;
+		   		text-align: center;
+		   		height: 200px;
+				width: 200px;}
+		.list1 {position: relative;
+				font-size: 18px}
+		.list2 {position: relative;
+				font-size: 16px}
+	}
+</style>
+</head>
+	
+<body class="page">
+	<header class="header">
+	<div style="letter-spacing: 1px">Curriculum Vitae</div>
+	</header>
+	
+	<main class="main">
+		<div>
+		<p>Nabarouski Kanstantsin</p>
+		<p><img src="unnamed.jpg" alt="RSlogo" class="logo"></p>
+		<p><img src="merano_2000.jpg" alt="Photo" class="pic"></p>
+		
+		<p>Contacts: <ul class="list1">
+			<li>Mobile: +375 25 783 46 59</li>
+			<li>Discord: Kanstantsin(@Nabarouski)</li></ul></p>
+		<p>About: <ul class="list1">
+			<li>Hi there! I'm studying in "Front-end Development Course" by <em><a href="https://rs.school/" target="_blank" class="link">Rolling Scopes School</a></em>. I was start to studying, because this direction interesting for me. Today i work as a hairdresser and want to study a new profession. My own first project at <em><a href="https://naborovsky.netlify.app/" target="_blank" class="link">this page</a></em>.
+			Also see my <em><a href="https://github.com/Nabarouski" target="_blank" class="link">GitHub page</a></em>.</li></ul></p>
+		<p>Code example: <ul class="list2">
+		<li><pre>function multiply(a, b){
+ 		return a * b;
+		}</pre></li>
+		<li><pre>function solution(str){
+  		let i = str.length - 1;
+  		let result = '';
+  		while (i >= 0){
+    	result = result + str[i];
+    	i = i - 1;
+  		}
+  		return result;
+		}</pre></li></ul>
+		</p>
+	<p>English-level: <ul class="list1"><li>A1. Elementary</li></ul></p>
+		</div>
+	</main>
+</body>
+</html>

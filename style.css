@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+	.page {position: relative;
+			margin-left: 5%;
+		    margin-right: 5%;
+			}
+	.header {font-family:'Spline Sans bold';
+			 font-size: 36px;
+			 text-align: center;
+			 color: black;
+			 background-color:#2D844A;
+			 border:solid 5px #CABE3A;
+			}
+	.main {font-family:'Spline Sans bold';
+		   font-size: 36px;
+		   text-align: left;
+		    color: black;
+			background-color: #ffffff;
+			border:solid 3px #CABE3A;
+			padding: 20px;}
+	
+	.pic {border: solid 1px #CABE3A;
+		  width: 400px; height: 300px;}
+	
+	.list1 {font-size: 28px}
+	.list2 {font-size:24px}
+	
+	.logo {position: relative;
+		   float: right;
+		   height: 300px;
+		   width: 300px;
+		   
+		}
+	
+	.link {cursor:pointer;
+		   text-decoration: none;
+		   color: black}
+	.link:hover {color: yellow;
+				border: solid 1px black;
+				background-color: black}
